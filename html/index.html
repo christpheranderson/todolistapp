@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>To do App</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="container">
+    <i class="fas fa-laptop"></i>
+    <header>
+      <div id = "login">
+        <p>Username</p>
+        <input type="text">
+        <p>Password</p>
+        <input type="password">
+      </div>
+        <h1>TO DO App</h1>
+        <div id = "login">
+      </div>
+      <button class="button">Submit</button>
+     
+    </header>
+    
+ 
+    <main class="form">
+      <h2>Current ToDo List</h2>
+      <section id="todo-create">
+        <h3>New To Do Item:</h3> 
+        <input id="task" type ="text" placeholder="Task"><input id ="date" type="number" placeholder="Due Date">
+        <button id="submitNewTask">Push to add</button>
+        <p id="message"></p>
+      </section>
+      <section id="todo-create input-group">
+        
+        <ul>
+         <li><input type="checkbox" class="space">Item 1<button>Edit</button><button>Delete</button></li>
+          <li><input type="checkbox" class="space">Item 2<button>Edit</button><button>Delete</button></li>
+          <li><input type="checkbox" class="space">Item 3<button>Edit</button><button>Delete</button></li>
+        </ul>
+      </section>
+      
+      <section id="todo-list">
+        <ul>
+          
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2018</p>
+    </footer>
+      
+  </div>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>
